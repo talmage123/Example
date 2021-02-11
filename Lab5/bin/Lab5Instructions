@@ -1,0 +1,30 @@
+1) Using the zip file provided do the following lab
+
+ 
+
+Lab 5                                                        COSC 20203                                                 Fall 2020
+
+Due: Tuesday November 17
+
+ 
+
+For this lab you may work in groups of two. Using the code given from K. Sierra B. Bates (SimpleChatClient.java, DeafChatClient.java and & CharServer.java) design and program a multi client-server system that provides a chat service for an unlimited number of clients.
+
+You can add as many features as you may want among them:
+
+    Ability to specify the IP address of the server and the nickname that user wants
+    Connect/Disconnect button
+    Encryption or no encryption of the message
+    Fancy display of messages using sounds and images
+    A scrollable JTextArea that displays messages in the chat session
+    A message could have a prefix that shows the nickname of the author
+    JTextField for the user to enter a message to be sent to the server
+    The server GUI may have a server log facility (or in an Object file)
+
+However at least the chat service must provide the facility to select whether or not to broadcast to all listeners or just to direct the message to one listener and also the ability yo encrypt the content of the message. See the example below. This can be done by using string tokenization of the message sent to the server. Once the server gets the string that includes name of sender, name of the receiver it can select to send to just that person. Otherwise it will broadcast it to all, the same goes for the encryption.Useful Images will provided in class
+
+ 
+
+Remember to document your methods for javadoc and use private objects public methods, submit all your classes. Send me an email with the jar file zipped and also put in the D2L a simple documentation on how to run the program. If working in a group each member must submit a zip file and document your code accordingly with both names
+
+2)  Submit the file when you have finished the Lab 5
